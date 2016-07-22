@@ -18,7 +18,7 @@ http.createServer(function (req, res) {
         body += "<ul>";
         body += "<li><a href='/nayn-test'>Nayn Test - June 24, 2016</a></li>";
         body += "</ul>";
-        content = '<html>' + head + '<text>' + body + '</body>' + style + '</html>';        
+        content = '<html>' + head + '<text>' + body + '</body>' + '</html>';        
     }
     res.end(content);
 }).listen(process.env.PORT);
