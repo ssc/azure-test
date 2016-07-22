@@ -15,8 +15,9 @@ http.createServer(function (req, res) {
     else {
         head = '<head><title>ssc-azure-test</title></head>';        
         body = '<h1>Azure Projects</h1>';
+        body += '<a href="https://github.com/ssc/azure-test">https://github.com/ssc/azure-test</a>';
         body += "<ul>";
-        body += "<li><a href='/nayn-test'>Nayn Test - June 24, 2016</a></li>";
+        body += "<li><a href='/nayn-test'>Nyan Test - June 24, 2016</a></li>";
         body += "</ul>";
         content = '<html>' + head + '<text>' + body + '</body>' + '</html>';        
     }
